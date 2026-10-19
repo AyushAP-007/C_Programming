@@ -11,7 +11,7 @@ typedef int BOOL;
 // Description   : Checks whether a number is divisible by 5.
 // Input         : Integer
 // Output        : TRUE if divisible by 5; otherwise FALSE
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 BOOL Check_divisiblity(int iNo)
@@ -29,7 +29,7 @@ BOOL Check_divisiblity(int iNo)
 // Description   : Reads a number and reports its divisibility by 5.
 // Input         : Integer entered by the user
 // Output        : Divisibility result
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int main(void)
