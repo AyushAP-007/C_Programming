@@ -7,7 +7,7 @@
 // Description   : Divides the first number by the second.
 // Input         : Two integers
 // Output        : Integer quotient, or -1 when the divisor is zero
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int Divide(int iNo1, int iNo2)
@@ -29,7 +29,7 @@ int Divide(int iNo1, int iNo2)
 // Description   : Calls Divide and displays the result.
 // Input         : None
 // Output        : Division result
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int main(void)
