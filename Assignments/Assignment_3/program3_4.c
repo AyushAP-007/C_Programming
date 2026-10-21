@@ -6,8 +6,10 @@
 // Prompt: Accept a character and convert its case.
 // Samples: a -> A; D -> d
 
+
 #include <stdio.h>
 #include<ctype.h>
+
 
 ///////////////////////////////////////////////////////////////
 // Function Name : DisplayConvert
@@ -19,15 +21,16 @@
 ///////////////////////////////////////////////////////////////
 void DisplayConvert(char CValue)
 {
-    if ((CValue>= 97) && (CValue<=122))
+    if (islower(CValue))
     {
         printf("%c", toupper(CValue));
     }
-    else if ((CValue >= 65) && (CValue <= 90))
+    else if (isupper(CValue))
     {
         printf("%c", tolower(CValue));
     }
 }
+
 
 ///////////////////////////////////////////////////////////////
 // Function Name : main
@@ -48,4 +51,3 @@ int main()
     
     return 0;
 }
-
