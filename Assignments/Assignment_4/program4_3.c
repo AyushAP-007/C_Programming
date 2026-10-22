@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 4, Problem 3
 // Find the Greater of Two Numbers
 // Accept two integers and determine which is greater; report when both are equal.

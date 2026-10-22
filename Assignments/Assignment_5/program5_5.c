@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 5, Problem 5
 // Identify Character Type
 // Accept a single character and determine whether it is an uppercase alphabet, lowercase alphabet, digit, or special character.

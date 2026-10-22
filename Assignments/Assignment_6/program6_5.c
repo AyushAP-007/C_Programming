@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 6, Problem 5
 // Calculate Employee Bonus
 // Accept an employee's monthly salary and completed years of service. Calculate the bonus:

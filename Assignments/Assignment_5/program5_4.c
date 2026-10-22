@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 5, Problem 4
 // Check Divisibility by 3 and 5
 // Determine whether an integer is divisible by both 3 and 5, only 3, only 5, or neither.

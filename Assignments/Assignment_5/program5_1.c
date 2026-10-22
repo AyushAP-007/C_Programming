@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 5, Problem 1
 // Find the Greatest of Three Numbers
 // Accept three integers and determine the greatest, including when values are equal.

@@ -1,8 +1,3 @@
-// General instructions from the assignment:
-// Complete the code snippets; they contain only service provider functions.
-// Write an entry point function to call the helper functions separately.
-// Create a separate Visual Studio project for each problem statement.
-
 // Assignment 4, Problem 5
 // Check Divisibility by 5
 // Accept an integer and determine whether it is divisible by 5 without leaving any remainder.
