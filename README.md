@@ -16,10 +16,9 @@ Run it on macOS or Linux with ./program1_1, or on Windows with program1_1.exe. R
 
 ~~~text
 Assignments/
-└── Assignment_1/
-    ├── program1_1.c
-    ├── program1_2.c
-    ├── program1_3.c
-    ├── program1_4.c
-    └── program1_5.c
+├── Assignment_1/
+├── Assignment_7/
+├── Assignment_8/
+├── Assignment_9/
+└── Assignment_10/
 ~~~
