@@ -1,4 +1,5 @@
-// Assignment 8, Problem 2: Accept single digit number from user and print it into word.
+// Assignment 8, Problem 2
+// Accept single digit number from user and print it into word.
 // Input : 9
 // Output : Nine
 // Input : -3
@@ -6,8 +7,17 @@
 // Input : 12
 // Output : Invalid Number
 
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Display
+// Description   : Converts a single digit number into its English word representation.
+// Input         : Integer number
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 31/10/2026
+///////////////////////////////////////////////////////////////
 void Display(int iNo)
 {
     if (iNo < 0)
@@ -61,14 +71,22 @@ void Display(int iNo)
     }
 }
 
-int main()
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads input, calls Display, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 31/10/2026
+///////////////////////////////////////////////////////////////
+int main(void)
 {
     int iValue = 0;
 
     printf("Enter number: ");
-    scanf("%d",&iValue);
+    scanf("%d", &iValue);
 
     Display(iValue);
 
-    return 0;
+    return EXIT_SUCCESS;
 }
