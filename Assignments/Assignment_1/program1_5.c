@@ -7,7 +7,7 @@
 // Description   : Prints one asterisk for each count up to iNo.
 // Input         : Integer count
 // Output        : iNo asterisks
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 void accept(int iNo)
@@ -25,7 +25,7 @@ void accept(int iNo)
 // Description   : Reads a count and prints that many asterisks.
 // Input         : Integer entered by the user
 // Output        : Asterisks
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int main(void)

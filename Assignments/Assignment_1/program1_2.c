@@ -7,7 +7,7 @@
 // Description   : Prints "Marvellous" five times.
 // Input         : None
 // Output        : "Marvellous" five times
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 void display(void)
@@ -25,7 +25,7 @@ void display(void)
 // Description   : Calls display.
 // Input         : None
 // Output        : "Marvellous" five times
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int main(void)

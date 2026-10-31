@@ -7,7 +7,7 @@
 // Description   : Prints the numbers from 5 down to 1.
 // Input         : None
 // Output        : Numbers 5, 4, 3, 2, 1
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 void display(void)
@@ -26,7 +26,7 @@ void display(void)
 // Description   : Calls display.
 // Input         : None
 // Output        : Numbers 5, 4, 3, 2, 1
-// Author        : Ayush
+// Author        : Ayush Anil Patil
 // Date          : 19/10/2026
 ///////////////////////////////////////////////////////////////
 int main(void)
