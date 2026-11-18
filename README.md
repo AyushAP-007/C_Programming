@@ -100,12 +100,30 @@ Assignments/
 │   ├── program14_3.c
 │   ├── program14_4.c
 │   └── program14_5.c
-└── Assignment_15/
-    ├── program15_1.c
-    ├── program15_2.c
-    ├── program15_3.c
-    ├── program15_4.c
-    └── program15_5.c
+├── Assignment_15/
+│   ├── program15_1.c
+│   ├── program15_2.c
+│   ├── program15_3.c
+│   ├── program15_4.c
+│   └── program15_5.c
+├── Assignment_16/
+│   ├── program16_1.c
+│   ├── program16_2.c
+│   ├── program16_3.c
+│   ├── program16_4.c
+│   └── program16_5.c
+├── Assignment_17/
+│   ├── program17_1.c
+│   ├── program17_2.c
+│   ├── program17_3.c
+│   ├── program17_4.c
+│   └── program17_5.c
+└── Assignment_18/
+    ├── program18_1.c
+    ├── program18_2.c
+    ├── program18_3.c
+    ├── program18_4.c
+    └── program18_5.c
 ```
 
 Each assignment folder has a README with a solution list and compile/run example. Compile individual source files; do not compile multiple assignment files together because each contains its own `main` function.
