@@ -25,7 +25,11 @@ Assignments/
 ├── Assignment_7/
 ├── Assignment_8/
 ├── Assignment_9/
-└── Assignment_10/
+├── Assignment_10/
+├── Assignment_19/
+├── Assignment_20/
+├── Assignment_21/
+└── Assignment_22/
 ```
 
 Each assignment folder has a README with a solution list and compile/run example. Compile individual source files; do not compile multiple assignment files together because each contains its own `main` function.
