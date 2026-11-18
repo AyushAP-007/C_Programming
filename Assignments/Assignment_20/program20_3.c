@@ -10,6 +10,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Pattern
+// Description   : Displays the border and anti-diagonal using asterisks.
+// Input         : Integer iRow, Integer iCol
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 18/11/2026
+///////////////////////////////////////////////////////////////
 void Pattern(int iRow, int iCol)
 {
     int iRowCnt = 0, iColCnt = 0;
@@ -31,6 +39,14 @@ void Pattern(int iRow, int iCol)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads input values and calls Pattern.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 18/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     int iValue1 = 0, iValue2 = 0;

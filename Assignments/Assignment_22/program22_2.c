@@ -4,6 +4,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Pattern
+// Description   : Displays descending numbers separated by # symbols.
+// Input         : Integer iNo
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 18/11/2026
+///////////////////////////////////////////////////////////////
 void Pattern(int iNo)
 {
     int iCnt = 0;
@@ -14,6 +22,14 @@ void Pattern(int iNo)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads input values and calls Pattern.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 18/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;
