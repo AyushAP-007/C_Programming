@@ -130,5 +130,15 @@ Assignments/
 └── Assignment_22/
 ```
 
+### Assignments 23–27
+
+Each folder contains five C source files (`programN_1.c` through `programN_5.c`) and a README with descriptions and a compile/run example:
+
+- `Assignment_23/`
+- `Assignment_24/`
+- `Assignment_25/`
+- `Assignment_26/`
+- `Assignment_27/`
+
 Each assignment folder has a README with a solution list and compile/run example. Compile individual source files; do not compile multiple assignment files together because each contains its own `main` function.
 
