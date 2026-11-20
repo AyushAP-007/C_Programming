@@ -4,6 +4,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : DisplayDigit
+// Description   : Displays the digit characters found in the string.
+// Input         : Character pointer str
+// Output        : Digits printed to the screen
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void DisplayDigit(char *str)
 {
     while(*str != '\0')
@@ -16,6 +24,14 @@ void DisplayDigit(char *str)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string and displays its digit characters.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

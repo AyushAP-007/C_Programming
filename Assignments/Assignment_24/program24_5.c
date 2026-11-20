@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : StrRevX
+// Description   : Reverses the string in place.
+// Input         : Character pointer str
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void StrRevX(char *str)
 {
     char *start = str;
@@ -25,6 +33,14 @@ void StrRevX(char *str)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, reverses it in place, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20] = {'\0'};

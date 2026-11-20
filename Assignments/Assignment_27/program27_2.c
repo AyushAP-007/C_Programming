@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : CountSmall
+// Description   : Counts lowercase letters in the string.
+// Input         : Character pointer str
+// Output        : Integer count of lowercase letters
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int CountSmall(char *str)
 {
     int iCnt = 0;
@@ -19,6 +27,14 @@ int CountSmall(char *str)
     return iCnt;
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, counts lowercase letters, and displays the count.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : FirstChar
+// Description   : Finds the index of the first occurrence of the specified character.
+// Input         : Character pointer str, character ch
+// Output        : Integer index, or -1 if not found
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int FirstChar(char *str, char ch)
 {
     int iCnt = 0;
@@ -27,6 +35,14 @@ int FirstChar(char *str, char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string and character, finds the first matching index, and displays it.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20] = {'\0'};

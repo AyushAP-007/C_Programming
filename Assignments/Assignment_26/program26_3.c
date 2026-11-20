@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Display
+// Description   : Displays letters from the input character through Z, or backward through a.
+// Input         : Character ch
+// Output        : Sequence of letters printed to the screen
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void Display(char ch)
 {
     if(ch >= 'A' && ch <= 'Z')
@@ -21,6 +29,14 @@ void Display(char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a character and displays the corresponding letter sequence.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

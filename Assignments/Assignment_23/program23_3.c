@@ -4,6 +4,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : strtogglex
+// Description   : Toggles the case of each alphabetic character in the string.
+// Input         : Character pointer str
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void strtogglex(char *str)
 {
     while(*str != '\0')
@@ -20,6 +28,14 @@ void strtogglex(char *str)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, toggles its alphabetic character case, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

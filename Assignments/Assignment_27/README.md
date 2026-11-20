@@ -1,26 +1,19 @@
 # Assignment 27 – C
 
-Five C solutions for the twenty-seventh Logic Building assignment.
+Five C solutions for Assignment 27.
 
-| File | Program |
+| File | Problem |
 | --- | --- |
-| `program27_1.c` | Count uppercase characters in a string |
-| `program27_2.c` | Count lowercase characters in a string |
-| `program27_3.c` | Find the difference between lowercase and uppercase character counts |
-| `program27_4.c` | Check whether a string contains a vowel |
-| `program27_5.c` | Display a string in reverse order |
+| program27_1.c | Count uppercase letters in a string. |
+| program27_2.c | Count lowercase letters in a string. |
+| program27_3.c | Return the lowercase count minus the uppercase count in a string. |
+| program27_4.c | Check whether a string contains a vowel. |
+| program27_5.c | Display a string in reverse order. |
 
-## Compile and run
+Compile a solution from the repository root with GCC. For example:
 
-Install GCC or another C compiler. From the repository root, compile one solution at a time. For example:
-
-```sh
+~~~sh
 gcc Assignments/Assignment_27/program27_1.c -o program27_1
-```
+~~~
 
-Run on macOS or Linux with `./program
-27
-_1`, or on Windows with `program
-27
-_1.exe`. Each source file has its own `main` function and should be compiled separately.
-
+Each file contains its own main function and should be compiled separately.

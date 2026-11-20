@@ -7,6 +7,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : ChkVowel
+// Description   : Checks whether the string contains an uppercase or lowercase vowel.
+// Input         : Character pointer str
+// Output        : BOOL TRUE if a vowel is found, otherwise FALSE
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 BOOL ChkVowel(char *str)
 {
     while(*str != '\0')
@@ -30,6 +38,14 @@ BOOL ChkVowel(char *str)
 }
 
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, checks whether it contains a vowel, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

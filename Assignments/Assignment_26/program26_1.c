@@ -2,6 +2,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : DisplayASCII
+// Description   : Displays ASCII symbols and their decimal, hexadecimal, and octal values.
+// Input         : None
+// Output        : ASCII table printed to the screen
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void DisplayASCII()
 {
     int iCnt = 0;
@@ -13,6 +21,14 @@ void DisplayASCII()
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Calls DisplayASCII to display the ASCII table.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     DisplayASCII();

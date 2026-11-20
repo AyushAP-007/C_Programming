@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : LastChar
+// Description   : Finds the index of the last occurrence of the specified character.
+// Input         : Character pointer str, character ch
+// Output        : Integer index, or -1 if not found
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int LastChar(char *str, char ch)
 {
     int iCnt = 0;
@@ -22,6 +30,14 @@ int LastChar(char *str, char ch)
     return iLastIndex;
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string and character, finds the last matching index, and displays it.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20] = {'\0'};

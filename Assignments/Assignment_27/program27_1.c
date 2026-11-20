@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : CountCapital
+// Description   : Counts uppercase letters in the string.
+// Input         : Character pointer str
+// Output        : Integer count of uppercase letters
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int CountCapital(char *str)
 {
     int iCnt = 0;
@@ -19,6 +27,14 @@ int CountCapital(char *str)
     return iCnt;
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, counts uppercase letters, and displays the count.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

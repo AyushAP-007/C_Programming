@@ -7,6 +7,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : ChkChar
+// Description   : Checks whether the specified character occurs in the string.
+// Input         : Character pointer str, character ch
+// Output        : BOOL TRUE if found, otherwise FALSE
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 BOOL ChkChar(char *str, char ch)
 {
     while(*str != '\0')
@@ -28,6 +36,14 @@ BOOL ChkChar(char *str, char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string and character, checks for the character, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20] = {'\0'};

@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Display
+// Description   : Displays the opposite case for a letter, or the character unchanged otherwise.
+// Input         : Character ch
+// Output        : Converted character printed to the screen
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void Display(char ch)
 {
     if(ch >= 'a' && ch <= 'z')
@@ -19,6 +27,14 @@ void Display(char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a character, displays its opposite case when alphabetic, and otherwise displays it unchanged.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

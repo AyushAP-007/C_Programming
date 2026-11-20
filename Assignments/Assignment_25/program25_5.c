@@ -7,6 +7,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : DisplaySchedule
+// Description   : Displays the exam time for the specified division.
+// Input         : Character chDiv
+// Output        : Exam schedule printed to the screen
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void DisplaySchedule(char chDiv)
 {
     if((chDiv == 'A') || (chDiv == 'a'))
@@ -31,6 +39,14 @@ void DisplaySchedule(char chDiv)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a division and displays its exam schedule.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

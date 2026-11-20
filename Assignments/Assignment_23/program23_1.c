@@ -4,6 +4,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : strlwrx
+// Description   : Converts uppercase letters in the string to lowercase.
+// Input         : Character pointer str
+// Output        : None
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 void strlwrx(char *str)
 {
     while(*str != '\0')
@@ -16,6 +24,14 @@ void strlwrx(char *str)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, converts it to lowercase, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

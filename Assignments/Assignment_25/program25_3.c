@@ -6,6 +6,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : ChkDigit
+// Description   : Checks whether the character is a decimal digit.
+// Input         : Character ch
+// Output        : BOOL TRUE if a digit, otherwise FALSE
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 BOOL ChkDigit(char ch)
 {
     if(ch >= '0' && ch <= '9')
@@ -18,6 +26,14 @@ BOOL ChkDigit(char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a character, checks whether it is a digit, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

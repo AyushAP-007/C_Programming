@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : CountChar
+// Description   : Counts occurrences of the specified character in the string.
+// Input         : Character pointer str, character ch
+// Output        : Integer frequency of ch
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int CountChar(char *str, char ch)
 {
     int iCnt = 0;
@@ -18,6 +26,14 @@ int CountChar(char *str, char ch)
     return iCnt;
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string and character, counts its frequency, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20] = {'\0'};

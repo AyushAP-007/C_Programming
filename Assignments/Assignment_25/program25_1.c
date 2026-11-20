@@ -6,6 +6,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : ChkAlpha
+// Description   : Checks whether the character is an alphabet letter.
+// Input         : Character ch
+// Output        : BOOL TRUE if alphabetic, otherwise FALSE
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 BOOL ChkAlpha(char ch)
 {
     if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
@@ -18,6 +26,14 @@ BOOL ChkAlpha(char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a character, checks whether it is an alphabet letter, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';

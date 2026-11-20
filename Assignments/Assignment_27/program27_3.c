@@ -3,6 +3,14 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////
+// Function Name : Difference
+// Description   : Returns the lowercase count minus the uppercase count in the string.
+// Input         : Character pointer str
+// Output        : Integer difference
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int Difference(char *str)
 {
     int iCnt = 0;
@@ -23,6 +31,14 @@ int Difference(char *str)
     return iCnt;
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a string, computes the lowercase minus uppercase count, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char arr[20];

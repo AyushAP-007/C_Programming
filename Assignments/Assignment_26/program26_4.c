@@ -6,6 +6,14 @@
 
 typedef int BOOL;
 
+///////////////////////////////////////////////////////////////
+// Function Name : ChkSpecial
+// Description   : Checks whether the character is one of the specified special symbols.
+// Input         : Character ch
+// Output        : BOOL TRUE if special, otherwise FALSE
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 BOOL ChkSpecial(char ch)
 {
     if((ch == '!') || (ch == '@') || (ch == '#') || (ch == '$') || (ch == '%') || (ch == '^') || (ch == '&') || (ch == '*'))
@@ -18,6 +26,14 @@ BOOL ChkSpecial(char ch)
     }
 }
 
+///////////////////////////////////////////////////////////////
+// Function Name : main
+// Description   : Reads a character, checks whether it is a specified special symbol, and displays the result.
+// Input         : None
+// Output        : Exit status
+// Author        : Ayush Anil Patil
+// Date          : 20/11/2026
+///////////////////////////////////////////////////////////////
 int main()
 {
     char cValue = '\0';
